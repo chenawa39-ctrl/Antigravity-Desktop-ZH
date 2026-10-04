@@ -1,0 +1,11 @@
+# Local installation and private development artifacts
+安装记录.json
+原始文件备份/
+__pycache__/
+*.py[cod]
+*.asar
+*.original
+*.tmp
+work/
+*.png
+*.jpg

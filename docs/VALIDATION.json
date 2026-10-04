@@ -1,0 +1,70 @@
+{
+  "tested_on": "2026-10-04 Asia/Shanghai",
+  "application": "Google Antigravity desktop",
+  "version": "2.19.1",
+  "translation_entries": 2588,
+  "startup_translation_verified": true,
+  "restored_english_startup_verified": true,
+  "restoration_byte_exact": true,
+  "reinstallation_verified": true,
+  "idempotent_installation_verified": true,
+  "runtime_pages_inspected": [
+    "首页",
+    "通用设置",
+    "应用设置",
+    "外观设置",
+    "模型与用量",
+    "快捷键",
+    "计划任务"
+  ],
+  "content_protection_runtime_tests": {
+    "positive": true,
+    "editable": true,
+    "code": true,
+    "userMessage": true,
+    "agentMessage": true,
+    "chatButton": true,
+    "userTitle": true,
+    "inputValue": true,
+    "placeholder": true,
+    "optionValue": true,
+    "markdown": true,
+    "noObserverLoop": true
+  },
+  "native_menu_and_dialog_unit_tests": {
+    "menu_translation": true,
+    "original_menu_lookup_preserved": true,
+    "click_handlers_preserved": true,
+    "context_menu_translation": true,
+    "tray_translation": true,
+    "dialog_translation": true,
+    "dialog_button_indexes_preserved": true
+  },
+  "native_menu_note": "原生菜单模块已随软件启动；菜单和对话框的文字及操作保持由单元验证检查，未逐项点击所有原生菜单。",
+  "archive_validation": {
+    "version": "2.19.1",
+    "original_sha256": "341234faf45bd1776fd5418a3c288dedc5487ebfcf153f53d75de17cfe15c1de",
+    "patched_sha256": "8c4b0ac3d2bbbaff5971786e7d9cb845fe86be4532988843fe0184449dda9011",
+    "original_bytes": 4633430,
+    "patched_bytes": 4985268,
+    "modified_modules": [
+      "dist/main.js",
+      "dist/menu.js",
+      "dist/preload.js",
+      "dist/updater.js"
+    ],
+    "added_modules": [
+      "dist/zh-native.cjs",
+      "dist/zh-CN.json"
+    ],
+    "unmodified_original_files": 751,
+    "archive_content_checks": true,
+    "javascript_syntax_checks": true
+  },
+  "limitations": [
+    "仅验证 Antigravity 桌面版 2.19.1；软件升级后需重新适配。",
+    "模型名称、产品品牌、用户内容、代码和部分外部/动态文字保留原文。",
+    "未声称所有页面或所有状态达到百分之百汉化。"
+  ],
+  "test_context": "2026-10-04 在一台 Windows 开发电脑上的验证记录，不代表下载者电脑已经安装或验证。"
+}
